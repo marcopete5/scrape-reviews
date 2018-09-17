@@ -26,9 +26,10 @@ for (i = 0; i < urls.length; i++){
               const saved = ['','','']
               reviews.map(review => {
                   const words = review.split(' ')
-                  let posTotal = words.filter(word => {
+                  let posWords = words.filter(word => {
                         return positive.includes(word)
                   }).length
+                  const posTotal = posWords / words.length
                   if(posTotal > top3[0]){
                       top3[0] = posTotal
                       saved[0] = review
