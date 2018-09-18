@@ -22,6 +22,6 @@ This will check:
 
 ```If the scraper searches through 5 different pages for reviews```
 and
-```If it returns at 3 reviews rather than empty arrays```
+```If it returns 3 reviews rather than empty arrays```
 
 
